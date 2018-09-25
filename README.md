@@ -1,5 +1,3 @@
-# Scala from scratch 
+# Scala from scratch
 
 ## План лекций:
-
-* Введение.
