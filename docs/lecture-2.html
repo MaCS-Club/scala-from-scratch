@@ -160,8 +160,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <p>Применение параметризированной функции вычисляется следующим образом:</p>
 <ol type="1">
 <li>Вычисляются все параметры, слева направо</li>
-<li>Заменяется применение функции правой частью определения</li>
-<li>Заменяются формальный параметры фактическими аргументами</li>
+<li>Применение функции заменяется правой частью определения</li>
+<li>Формальные параметры заменяются фактическими аргументами</li>
 </ol>
 </section>
 <section id="вычисление-функций-1" class="slide level2">
@@ -186,12 +186,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <section id="завершаемость" class="slide level2">
 <h2>Завершаемость</h2>
 <p>Все ли выражения редуцируются к значению(за конечное число шагов)?</p>
+</section>
+<section id="завершаемость-1" class="slide level2">
+<h2>Завершаемость</h2>
 <p>Нет. Контрпример:</p>
 <div class="sourceCode" id="cb10"><pre class="sourceCode scala"><code class="sourceCode scala"><a class="sourceLine" id="cb10-1" data-line-number="1"><span class="kw">def</span> loop: Int = loop</a>
 <a class="sourceLine" id="cb10-2" data-line-number="2"></a>
 <a class="sourceLine" id="cb10-3" data-line-number="3">loop</a></code></pre></div>
 </section>
-<section id="завершаемость-1" class="slide level2">
+<section id="завершаемость-2" class="slide level2">
 <h2>Завершаемость</h2>
 <p>Определение:</p>
 <div class="sourceCode" id="cb11"><pre class="sourceCode scala"><code class="sourceCode scala"><a class="sourceLine" id="cb11-1" data-line-number="1"><span class="kw">def</span> x = loop</a></code></pre></div>
